@@ -1,0 +1,60 @@
+
+E Commerce Platform should have the following functionalities:
+
+1. A file (.txt) capable of dynamic updation of seller and items for sale.  => named as => SELLER FILES
+          The parameters of information need to be decided
+          ** We can create multiple files if necessary
+          
+2. Read the seller information from this file when the customer requests or searches for a product
+   and display the information
+          "Sort Products By" features of 
+            a. Price HIGH to LOW
+            b. Price LOW to HIGH
+            c. Most Popular  & any other options can be given [ WILL USE SWITCH CASE for this ]
+
+3. "Add to Cart" option for adding items to cart, once the customer finishes shopping "Check Out" Option should be given
+    We need to use a file for maintaining the status of the customers cart.           => CART file
+
+4. Read from the CART file and ask the user to Register or Login if already a user
+
+5. AUTHENTICATION Functionality to be given => 
+    A>  If Register =? Ask for the various attributes like 
+                        FIRST NAME
+                        LAST NAME
+                        MOBILE NO. 
+                        USERNAME
+                        PASSWORD
+                        
+                        and store in => AUTHENTICATION FILE and create a new file for every user to store their purchase history
+   B> If Login =?  Ask to enter 
+                        USERNAME
+                        PASSWORD
+                        
+                        and call authenticate function, and return 0 (if login invalid and ask user to try again GOTO Step 4) or return 1 (if login authenticated)
+ 6. Assuming that the login has been validated, create a new hash in a hash table data structure and store all the purchase information
+    Also copy the contents of purchase to the users individual file.
+    
+    
+ 7. Take input of customer location [we can restrict it to certain places] and use shortest Path algorithm to find the shortest path from seller location to customer location
+    Then, use some logic to estimate delivery time and display the same plus copy it to the purchase history file of the user
+    
+ 8. Customer has to Select the delivery speed 
+                      a. Normal 
+                      b. Express             (Extra charges will be levied for this)
+                      c. One Day Delivery    (Extra charges will be levied for this)
+    Add the contents of the cart, add taxes as certain predefined percentage of selling price. 
+    DISPLAY THE GRAND TOTAL and display the statement that the customer is obliged to pay it and no exceptions can be made
+ 
+                      Note : Our E Commerce System has pay on delivery option only.
+ 9. After this display THANK YOU FOR SHOPPING
+
+
+
+10. Once again, if the customer logs in, their can see the status of the package and track it
+
+12. The order will be pushed into priority queue and execution of deliveries will take place according to distance between seller and buyer and speed of delivery chosen
+
+13. To execute deliveries the seller has to dequeue his sales queue
+
+14. If customer wants to cancel his order, he can do so, and that particular element will be popped out and customer purchase history file gets updated
+    and also the hash table gets updated

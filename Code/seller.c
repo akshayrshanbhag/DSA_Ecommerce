@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define SIZE 100
+#define SIZE 1000
 
 int count;
 

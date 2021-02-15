@@ -1,0 +1,22 @@
+AKSHAY New Delhi
+SHANBHAG Mumbai
+Ananya	Bangalore
+1	Akshay	New_Delhi
+0	Akshay	new_Delhi
+0	Akshay	New_Delhi
+0	AKshay	new_delhi
+0	Akshay	Chandigarh
+0	Akshay	Chandigarh
+0	Akshay	Chandigarh
+71	Akshau	Chandigarh
+1	Akshay	Chandigarh
+1	Akshay	Chandigarh
+1	AKshay	Chandigarh
+1	AKsgay	Chandigarh
+1	Akshay	Chandigarh
+1	Akshay	Mumbai
+1	Akshay	Mumbai
+2	Shanbhag	Bangalore
+3	Akash	New_Delhi
+4	Jack	Pune
+5	Smith	Chennai

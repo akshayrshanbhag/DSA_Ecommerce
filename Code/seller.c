@@ -9,7 +9,7 @@ struct articles
 char article_name[100];
 float cost;
 };
-
+int c;
 
 struct seller_info
 {

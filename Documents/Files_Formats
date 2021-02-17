@@ -19,8 +19,12 @@ Seller_ID     ITEM_ID_1       NAME_1            COST_1      DISCOUNT_1
                  .              .                 .             .
               ITEM_ID_n       NAME_n            COST_n      DISCOUNT_n
 ---------------------------------------------------------------------------------------------
+4. Location File
 
-4. History File [ to be written by Program during Execution ]
+Location_ID   Location_Name
+----------------------------------------------------------------------------------------------
+
+5. History File [ to be written by Program during Execution ]
 
 HASH_CODE    CUSTOMER_ID     ITEM_1     SELLER_ID_1       
                              ITEM_2     SELLER_ID_2

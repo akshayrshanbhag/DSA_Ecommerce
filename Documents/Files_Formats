@@ -1,0 +1,33 @@
+FILES Formats:
+
+1. Seller File
+
+Seller_ID            Seller_User_Name         No._of_items      Location_ID
+-------------------------------------------------------------------------------------------
+
+2. Customer File
+
+Customer_ID         Customer_User_Name       Password          Location_ID
+-------------------------------------------------------------------------------------------
+
+3. Items File
+
+Seller_ID     ITEM_ID_1       NAME_1            COST_1      DISCOUNT_1       
+              ITEM_ID_2       NAME 2              .             .
+                 .              .                 .             .
+                 .              .                 .             .
+                 .              .                 .             .
+              ITEM_ID_n       NAME_n            COST_n      DISCOUNT_n
+---------------------------------------------------------------------------------------------
+
+4. History File [ to be written by Program during Execution ]
+
+HASH_CODE    CUSTOMER_ID     ITEM_1     SELLER_ID_1       
+                             ITEM_2     SELLER_ID_2
+                               .            .
+                               .            .
+                             ITEM_n     SELLER_ID_n
+                             
+                             GRAND_TOTAL
+                             DELIVERY_SPEED_OPTED
+ --------------------------------------------------------------------------------------------

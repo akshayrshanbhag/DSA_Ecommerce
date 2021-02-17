@@ -178,7 +178,7 @@
 27 6 chair 350 1
 27 7 pan 275 3
 27 8 cosmetics 460 1
-28 6 lamp 300 3
+28 0 lamp 300 3
 29 0 mask 100 2
 29 1 cloth 150 1
 29 2 bag 300 3

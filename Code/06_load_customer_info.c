@@ -37,7 +37,7 @@ void populate_location(struct location_array locations[SIZE])
 void customer_read(struct customer_info customers[SIZE], struct location_array locations[SIZE])
 {
     FILE *fp_customer;
-    fp_customer = fopen("seller.txt","r");
+    fp_customer = fopen("customer.txt","r");
 
     int i = 0;
     int dummy;
